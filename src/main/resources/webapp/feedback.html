@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-block">
+        <h2>Форма обратной связи</h2>
+        <form id="contact-form" method="post" action="contact">
+            <input type="text" id="name" placeholder="Ваше имя" name="name" required><br>
+            <input type="email" id="email" placeholder="Email" name ="email" required><br>
+            <textarea id="message" placeholder="Сообщение" name="message" required></textarea><br>
+            <button type="submit">Отправить</button>
+        </form>
+        <p id="form-msg"></p>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
